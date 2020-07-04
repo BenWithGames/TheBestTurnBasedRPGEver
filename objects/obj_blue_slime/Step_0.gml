@@ -20,7 +20,7 @@ else
 		if (self.y <= 0)
 		{
 			reachForward = false;
-			gloober.glooberHpValue -= 5;
+			gloober.glooberHpValue -= dmgValues;
 			atbValue = 0;
 		}
 	}

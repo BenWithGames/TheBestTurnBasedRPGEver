@@ -6,6 +6,33 @@ if (glooberAtbValue < glooberAtbMaxValue)
 }
 else 
 {
+	if (executeCommand)
+	{
+		// If the option is Attack
+		if (textBoxUi.decision == 0)
+		{
+			if (!reachForward)
+			{
+				self.y -= 2
+				if (self.y <= originalYPos - 20)
+				{	
+					reachForward = true;
+				}
+			}
+			else
+			{
+				self.y += 2
 	
+				if (self.y >= originalYPos)
+				{
+					reachForward = false;
+					glooberAtbValue = 0;
+					executeCommand = false;
+				//	enemies.hp -= 25;
+				}
+			}
+		}
+	}
 }
+
 
