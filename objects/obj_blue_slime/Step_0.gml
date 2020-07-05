@@ -1,27 +1,33 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-if (atbValue < 100)
+if (hpValue > 0)
 {
-	atbValue += .3;
-}
-else
-{
-	if (!reachForward)
+	if (atbValue < 100)
 	{
-		self.y += 2;
-		if (self.y >= 20)
-			reachForward = true;
+		atbValue += .3;
 	}
 	else
 	{
-		self.y -= 2
-		if (self.y <= 0)
+		if (!reachForward)
 		{
-			reachForward = false;
-			gloober.glooberHpValue -= dmgValues;
-			atbValue = 0;
+			self.y += 2;
+			if (self.y >= 20)
+				reachForward = true;
+		}
+		else
+		{
+			self.y -= 2
+			if (self.y <= 0)
+			{
+				reachForward = false;
+				gloober.glooberHpValue -= dmgValues;
+				atbValue = 0;
+			}
 		}
 	}
+}
+else 
+{
+	room_goto(room_forest);
 }

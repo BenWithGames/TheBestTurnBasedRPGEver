@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "3bf9761c-99d1-406d-872b-f974815eb57c",
+            "Value": {
+                "id": "8e0ab133-4ba5-409f-a855-8326d3943a51",
+                "resourcePath": "objects\\cutscene_after_first_battle\\cutscene_after_first_battle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3cf2fd06-890d-40d6-b31b-75353aedfd12",
             "Value": {
                 "id": "226d50d0-198a-4fe0-88ce-5c72388c7281",
@@ -284,6 +292,14 @@
                 "id": "ee710529-3f72-4ac2-a647-813fad0ddb83",
                 "resourcePath": "sprites\\spr_hero_idle_east\\spr_hero_idle_east.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f1b430c-2abb-4380-97ff-3cb5fd8140d2",
+            "Value": {
+                "id": "e6cefd40-6422-4075-b4e1-5b9e4904cf3b",
+                "resourcePath": "objects\\cutscene_maybe_check_out_tree\\cutscene_maybe_check_out_tree.yy",
+                "resourceType": "GMObject"
             }
         },
         {

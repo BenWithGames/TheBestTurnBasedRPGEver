@@ -17,6 +17,7 @@ if (currentState = cutSceneStates.Active) {
 				currentStep++;
 				currentState = cutSceneStates.Paused;
 				obj_gloober.canMove = true;
+				instance_destroy();
 				break;
 			}
 	}

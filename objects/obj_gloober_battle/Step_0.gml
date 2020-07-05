@@ -28,7 +28,7 @@ else
 					reachForward = false;
 					glooberAtbValue = 0;
 					executeCommand = false;
-				//	enemies.hp -= 25;
+					enemy.hpValue -= 25;
 				}
 			}
 		}

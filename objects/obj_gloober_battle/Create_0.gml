@@ -2,7 +2,7 @@
 // You can write your code in this editor
 glooberHpValue = 100;
 glooberHpMax = glooberHpValue;
-glooberHpWidth = 194
+glooberHpWidth = 194;
 
 
 glooberAtbMaxValue = 100;
@@ -25,5 +25,4 @@ startingHpY = self.y + 380;
 startingAtbX = self.x + 450;
 startingAtbY = self.y + 300;
 
-
-
+enemy = global.enemyFight;

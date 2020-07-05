@@ -32,18 +32,18 @@ if (startCutscene)
 			obj_gloober.sprite_index = spr_hero_walk_east;
 		
 				
-			if (obj_gloober.x > 300)
+			if (obj_gloober.x > 600)
 			{
 				obj_gloober.x -= 2;
 			}
 			
-			if (obj_gloober.x <= 300)
+			if (obj_gloober.x <= 600)
 			{
 				frameCounter++;
 				obj_gloober.image_speed = 1;
 				obj_gloober.sprite_index = spr_hero_idle_east;
 				
-				if (frameCounter >= 60)
+				if (frameCounter >= 50)
 				{
 					currentStep++;
 				}
@@ -77,7 +77,9 @@ if (startCutscene)
 			{
 				instance_destroy(transition);
 				room_goto(room_first_battle);
-				currentStep++;	
+				global.enemyFight = GetEnemyObject("obj_blue_slime");
+				currentStep++;
+				instance_destroy();
 			}
 			break;
 	}
