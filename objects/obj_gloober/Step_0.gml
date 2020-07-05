@@ -33,4 +33,5 @@ if (canMove)
 	}
 	if(keyboard_check_released(vk_down))
 		sprite_index = spr_hero_idle_south
+		
 }

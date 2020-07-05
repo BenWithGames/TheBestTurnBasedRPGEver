@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "453c34f3-0f4c-40cb-8056-61d124a18b35",
+            "Value": {
+                "id": "870d7336-14eb-42ec-a8e7-c43bebb725aa",
+                "resourcePath": "objects\\cutscene_sign_to_darville\\cutscene_sign_to_darville.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4789607d-5531-4ef7-a481-a0c94499532c",
             "Value": {
                 "id": "fb349364-2bfb-4a13-899f-678b0113d21d",
@@ -279,6 +287,14 @@
             }
         },
         {
+            "Key": "5714b469-6bf5-434f-8f10-e76ab2f336f3",
+            "Value": {
+                "id": "47190148-9579-42d9-9e09-cf7328997c1f",
+                "resourcePath": "sprites\\tile_more_outdoors\\tile_more_outdoors.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57912995-0cd0-4082-b870-3791c3c6a088",
             "Value": {
                 "id": "8084980f-2230-4db9-bed4-2636ee3608a9",
@@ -292,6 +308,14 @@
                 "id": "ee710529-3f72-4ac2-a647-813fad0ddb83",
                 "resourcePath": "sprites\\spr_hero_idle_east\\spr_hero_idle_east.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b459fd0-39ff-4c80-9d4d-b4b5c5824a6f",
+            "Value": {
+                "id": "c9553285-c7ae-4016-9f9a-7bc791a33284",
+                "resourcePath": "rooms\\room_forest_2\\room_forest_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -511,6 +535,14 @@
             }
         },
         {
+            "Key": "bc91227b-0c85-4230-9cbd-480bd059891c",
+            "Value": {
+                "id": "d0c38b1a-215f-4acf-808b-3b0dda136ae6",
+                "resourcePath": "objects\\cutscene_secret_cave\\cutscene_secret_cave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be89812e-074d-4af4-a5b8-bc837ce95c65",
             "Value": {
                 "id": "d79ab0dc-7651-466e-92ee-f4ea7b5d4d75",
@@ -575,6 +607,14 @@
             }
         },
         {
+            "Key": "d1a43ba2-c457-4d57-a4b3-dd73c4a833a3",
+            "Value": {
+                "id": "1a870fdc-b9d9-45cf-8398-b27dd85f3665",
+                "resourcePath": "tilesets\\tile_basic_outdoor2\\tile_basic_outdoor2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "d4d486af-b60f-4a21-8590-13726d951d20",
             "Value": {
                 "id": "27c9dea8-df6c-4ddf-8a3d-29f337fde5c0",
@@ -627,6 +667,22 @@
             "Value": {
                 "id": "d5313234-6345-46d0-94bd-f702529d6408",
                 "resourcePath": "objects\\obj_hitbox\\obj_hitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "deda3c8f-97b6-43fc-b44f-829849b81d75",
+            "Value": {
+                "id": "a5076ea3-4055-4a6e-8dd7-9dcaf67a72e1",
+                "resourcePath": "objects\\cutscene_sign_cave\\cutscene_sign_cave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "df7955a2-ba97-4f29-85be-1f6d551b15b4",
+            "Value": {
+                "id": "795abd87-0d96-41cf-a7aa-1bd6aadccb24",
+                "resourcePath": "objects\\cutscent_go_to_forest1\\cutscent_go_to_forest1.yy",
                 "resourceType": "GMObject"
             }
         },

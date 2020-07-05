@@ -8,3 +8,5 @@ myTextbox = noone;
 myText[0] = "Maybe I should checkout what's behind the tree.";
 
 gloober = obj_gloober;
+
+startCutscene = false;
