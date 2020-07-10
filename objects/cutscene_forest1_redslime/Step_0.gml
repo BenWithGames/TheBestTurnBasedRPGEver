@@ -126,5 +126,57 @@ if (startCutscene)
 				currentStep++;
 			}
 			break;
+			
+		case 6:
+			if (effectLightning  == noone)
+			{
+				effectLightning = instance_create_layer(obj_red_slime.x + 15, obj_red_slime.y - 8, "Textbox", obj_effect_lightning);
+			}
+			
+			if (!instance_exists(effectLightning))
+			{
+				currentStep++;
+			}
+			break;
+			
+		case 7:
+			if (obj_red_slime.image_alpha >= 0)
+			{
+				obj_red_slime.image_alpha -= .02;
+			}
+			else if (obj_red_slime.image_alpha <= 0)
+			{
+				instance_destroy(obj_red_slime);
+				currentStep++;
+			}
+			break;
+		
+		case 8:
+			if (obj_old_man.x > obj_gloober.x + 30)
+			{
+				obj_old_man.x -= 1.3;
+			}
+			
+			else if (obj_old_man.x <= obj_gloober.x + 30)
+			{
+				currentStep++;
+			}
+			break;
+			
+		case 9:
+			if (oldManTextbox == noone)
+			{
+				oldManTextbox = instance_create_layer(x,y,"Textbox", obj_textbox);
+				oldManTextbox.text = oldManText;
+				oldManTextbox.creator = self;
+			}
+			
+			if (!instance_exists(oldManTextbox))
+			{
+				currentStep++;
+			}
+			break;
 	}
 }
+
+show_debug_message(currentStep);
